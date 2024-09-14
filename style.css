@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0e0e0e;
+  padding: 80px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+#outermostcontainer {
+  width: 1400px;
+  height: 900px;
+  background-color: #b24bf6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#outercontainer {
+  width: 1250px;
+  height: 700px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+  /* border: 1px solid; */
+}
+
+#container1 {
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 4px 10px 4px red;
+}
+#imgofmountain {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+#anna1 {
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#anna2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+#name {
+  height: 70px;
+  font-size: xx-large;
+  font-weight: 900;
+  color: #3c4e4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+}
+#bio1 {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+}
+#bio2 {
+  width: 270px;
+  color: #7d8385;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  /* border: 1px solid; */
+}
+#follow1 {
+  height: 60px;
+  background-color: #6420ff;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#follow2 {
+  color: #f6e2fe;
+  font-size: larger;
+  font-weight: bold;
+}
